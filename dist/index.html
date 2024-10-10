@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="index.js"></script>
+    <title>Portfolio Shilesh</title>
+</head>
+
+<body class="bg-slate-900 text-white grid  h-screen overflow-y-scroll">
+    <!-- place-content-center -->
+    <header class="">
+        <nav class="bg-white text-black flex justify-between p-3 place-content-center">
+            <h1 class="font-bold text-3xl shadow-gray-300 text-black uppercase">Shilesh mavchi</h1>
+            <ul class=" justify-between space-x-7 font-bold md:flex hidden">
+                <li class="hover:text-blue-700 hover:underline text-lg">Home</li>
+                <li class="hover:text-blue-700 hover:underline text-lg">About</li>
+                <li class="hover:text-blue-700 hover:underline text-lg">Contact</li>
+            </ul>
+
+            <a href="#" class="hidden md:block bg-blue-500 p-2 rounded-lg text-white font-bold hover:bg-blue-900 ">Login
+                /
+                LogOut</a>
+
+            <a href="" class="md:hidden ">
+                <img class="h-10 w-10 "
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/207px-Hamburger_icon.svg.png"
+                    alt="">
+            </a>
+        </nav>
+    </header>
+
+    <main class="">
+        <!-- hero section -->
+        <section class="min-h-screen flex flex-col-reverse md:flex-row ">
+            <!-- Left Side: Text Content -->
+            <div class="p-14 flex-1 flex flex-col justify-center">
+                <div class="flex-1 flex flex-col justify-center p-6 md:pl-100">
+                    <h1 class="text-2xl sm:text-3xl md:text-3xl font-bold mb-3">Hi I'm Shilesh</h1>
+                    <p class="text-lg sm:text-xl md:text-lg font-semibold mb-3">
+                        I'm a <span>Full Stack Developer | React.js Specialist</span>
+                    </p>
+                    <p class="text-sm sm:text-base  font-serif mb-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis similique assumenda nulla
+                        pariatur non rerum et tempora qui itaque accusantium?
+                    </p>
+
+                    <ul class="flex space-x-3 p-2 font-semibold m-2">
+                        <li
+                            class="text-2xl w-10 h-10 rounded-full bg-black flex items-center justify-center text-white">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </li>
+                        <li
+                            class="text-2xl w-10 h-10 rounded-full bg-black flex items-center justify-center text-white">
+                            <i class="fa-brands fa-github"></i>
+                        </li>
+                        <li
+                            class="text-2xl w-10 h-10 rounded-full bg-black flex items-center justify-center text-white">
+                            <i class="fa-brands fa-square-whatsapp"></i>
+                        </li>
+                        <li
+                            class="text-2xl w-10 h-10 rounded-full bg-black flex items-center justify-center text-white">
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </li>
+                    </ul>
+
+                    <span class="m-1 p-4">
+                        <a href="#"
+                            class="bg-blue-500 p-2 pl-6 pr-6 m-1 rounded-3xl text-white font-bold hover:bg-blue-900">Hire</a>
+                        <a href="#"
+                            class="bg-blue-500 p-2 pl-6 pr-6 m-1 rounded-3xl text-white font-bold hover:bg-blue-900">Contact</a>
+                    </span>
+                </div>
+            </div>
+
+            <!-- Right Side: Image -->
+            <div class="flex-1 flex place-content-center items-center ">
+                <img class="h-40 w-40 sm:h-50 sm:w-50 md:h-80 md:w-80 lg:h-80 lg:w-80 xl:h-96 xl:w-96 rounded-full object-cover"
+                    src="../img/pexels-olly-733872.jpg" alt="Responsive Circular Image">
+            </div>
+        </section>
+        <!-- about me -->
+        <section id="about-me" class="text-center mb-5 p-5 ">
+            <h2 class="p-3 text-4xl font-bold text-white shadow-xl  uppercase">About Me</h2>
+            <div
+                class="mt-6 bg-black max-w-6xl mx-auto  text-lg leading-relaxed p-[3rem]  rounded-2xl border border-gray-400">
+                <p class="mt-4 text-start text-pretty tracking-widest text-gray-400 ">
+                    Hi, I'm <span class="font-semibold  uppercase text-green-700">Shilesh Mavchi</span>, a passionate
+                    Full Stack Developer with
+                    <span class="font-semibold  text-orange-400 ">1 year</span> of experience in software development. I
+                    specialize
+                    in frontend technologies like <span class="font-semibold bg-blue-900 text-white px-2 py-1 rounded-md">React.js</span> and <span
+                        class="font-semibold text-yellow-400">JavaScript</span>,
+                    and have hands-on experience in backend frameworks like <span
+                        class="font-semibold text-lime-400">Django</span> and <span
+                        class="font-semibold text-emerald-400">Spring</span>.
+                    I enjoy building creative, responsive, and user-friendly applications.
+                </p>
+                <p class="mt-4 text-start text-pretty tracking-widest text-gray-400">
+                    I have worked on various projects including <span class="font-semibold text-purple-400">job
+                        portals</span> , <span class="font-semibold text-red-400">editors</span> , and <span
+                        class="font-semibold text-amber-400">online shopping platforms</span>,
+                    where I used my skills in both frontend and backend development. I am constantly learning and
+                    improving
+                    my skills to stay updated with the latest trends in the tech world.
+                </p>
+                <p class="mt-4 text-end p-11 text-white italic">
+                    <span id="typing-animation">
+                        <span class="font-semibold text-amber-400">--</span>
+                        <span class="font-semibold text-amber-400">Let's collaborate</span> and create something amazing
+                        together! . . .
+                    </span>
+                </p>
+                <div class="text-center mt-6">
+                    <a href="#contact"
+                        class="bg-amber-400 text-black font-bold py-2 px-4 rounded-full shadow-lg hover:bg-amber-500 transition-all">
+                        Contact Me
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- My Journey Section -->
+<section id="my-journey" class="text-center mb-12">
+    <h2 class="p-3 text-4xl font-bold text-white shadow-xl uppercase">My Journey</h2>
+
+    <!-- Experience Section -->
+    <div class="mt-6 bg-gray-900 max-w-7xl mx-auto p-8 rounded-2xl border border-gray-700 shadow-lg">
+        <h3 class="font-bold text-2xl text-green-400">Experience</h3>
+
+        <!-- First Experience -->
+        <div class="mt-6">
+            <h4 class="font-semibold text-xl text-green-300">Full Stack Developer Intern</h4>
+            <p class="italic text-gray-400">Privan Sports Analysis - Nashik, Maharashtra</p>
+            <p class="text-gray-500">June 2023 - July 2024</p>
+            <ul class="list-disc text-left mt-4 pl-6 text-gray-400 leading-relaxed">
+                <li class="mb-2">Developed a full-stack application for sports data analysis using <span class="text-blue-400">React.js</span> and <span class="text-green-400">Django</span>.</li>
+                <li class="mb-2">Enhanced user interface and improved backend performance.</li>
+                <li class="mb-2">Collaborated with the team to ensure responsive and user-friendly design.</li>
+            </ul>
+        </div>
+
+        <!-- Second Experience -->
+        <div class="mt-6">
+            <h4 class="font-semibold text-xl text-green-300">Full Stack Java Developer Intern</h4>
+            <p class="italic text-gray-400">Seven Mentor - Pune, Maharashtra</p>
+            <p class="text-gray-500">December 2022 - June 2023</p>
+            <ul class="list-disc text-left mt-4 pl-6 text-gray-400 leading-relaxed">
+                <li class="mb-2">Developed and maintained video editor and online shopping platforms using <span class="text-blue-400">React.js</span> and <span class="text-yellow-400">Java</span>.</li>
+                <li class="mb-2">Integrated <span class="text-purple-400">MySQL</span> for database management and backend functionality.</li>
+                <li class="mb-2">Worked closely with mentors to implement best practices and industry standards.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Education Section -->
+    <div class="mt-6 bg-gray-900 max-w-7xl mx-auto p-8 rounded-2xl border border-gray-700 shadow-lg">
+        <h3 class="font-bold text-2xl text-green-400">Education</h3>
+
+        <!-- Degree Information -->
+        <div class="mt-6">
+            <h4 class="font-semibold text-xl text-green-300">B.Sc. in Computer Science</h4>
+            <p class="italic text-gray-400">Ashoka Center for Business and Computer Studies - Nashik, Maharashtra</p>
+            <p class="text-gray-500">Graduated: 2023</p>
+            <p class="text-gray-400">Affiliated with Savitribai Phule Pune University (SPPU)</p>
+        </div>
+
+        <!-- Additional Education -->
+        <div class="mt-6">
+            <h4 class="font-semibold text-xl text-green-300">Higher Secondary Certificate (HSC)</h4>
+            <p class="italic text-gray-400">Science Stream - Nashik, Maharashtra</p>
+            <p class="text-gray-500">Completed: 2020</p>
+        </div>
+
+        <div class="mt-6">
+            <h4 class="font-semibold text-xl text-green-300">Secondary School Certificate (SSC)</h4>
+            <p class="italic text-gray-400">Nashik, Maharashtra</p>
+            <p class="text-gray-500">Completed: 2018</p>
+        </div>
+    </div>
+</section>
+
+        <!-- services -->
+        <section class="text-center mb-5">
+            <h2 class="p-3 text-4xl font-bold text-white shadow-xl  uppercase">Services</h2>
+
+        </section>
+
+        <!-- Testimonials -->
+        <section class="text-center mb-5 ">
+            <h2 class="p-3 text-4xl font-bold text-white shadow-xl uppercase">Testimonials</h2>
+            <div class="flex mt-5 flex-col lg:flex-row justify-center items-center">
+                <div
+                    class="p-6 m-5 max-w-xs sm:max-w-sm flex flex-col items-center text-center  bg-black shadow-lg border border-gray-400 rounded-2xl">
+                    <img class="h-40 w-40 mb-4 rounded-full" src="../img/pexels-olly-733872.jpg" alt="">
+                    <h4 class="text-lg sm:text-xl font-bold uppercase p-3">Shilesh Mavchi</h4>
+                    <div class="flex items-center space-x-1">
+                        <!-- Star 1 -->
+                        <svg class="w-6 h-6 text-yellow-500 cursor-pointer" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10 15.27L16.18 18 14.54 11.97 20 7.24l-7.19-.61L10 1 8.19 6.63 1 7.24l5.46 4.73L3.82 18z" />
+                        </svg>
+                        <!-- Repeat for the other stars -->
+                        <!-- Star 2 -->
+                        <svg class="w-6 h-6 text-yellow-500 cursor-pointer" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10 15.27L16.18 18 14.54 11.97 20 7.24l-7.19-.61L10 1 8.19 6.63 1 7.24l5.46 4.73L3.82 18z" />
+                        </svg>
+                        <!-- Star 3 -->
+                        <svg class="w-6 h-6 text-yellow-500 cursor-pointer" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10 15.27L16.18 18 14.54 11.97 20 7.24l-7.19-.61L10 1 8.19 6.63 1 7.24l5.46 4.73L3.82 18z" />
+                        </svg>
+                        <!-- Star 4 -->
+                        <svg class="w-6 h-6 text-yellow-500 cursor-pointer" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10 15.27L16.18 18 14.54 11.97 20 7.24l-7.19-.61L10 1 8.19 6.63 1 7.24l5.46 4.73L3.82 18z" />
+                        </svg>
+                        <!-- Star 5 -->
+                        <svg class="w-6 h-6 text-yellow-500 cursor-pointer" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10 15.27L16.18 18 14.54 11.97 20 7.24l-7.19-.61L10 1 8.19 6.63 1 7.24l5.46 4.73L3.82 18z" />
+                        </svg>
+                    </div>
+                    <p class="p-3  text-sm sm:text-base font-semibold text-center">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Eum, quia.</p>
+                </div>
+                <div
+                    class="p-6 m-5  max-w-xs sm:max-w-sm flex flex-col items-center text-center bg-black shadow-lg border border-gray-400 rounded-2xl">
+                    <img class="h-40 w-40 mb-4 rounded-full" src="../img/pexels-olly-733872.jpg" alt="">
+                    <h4 class="text-lg sm:text-xl font-bold uppercase p-3">Shilesh Mavchi</h4>
+                    <div class="flex items-center space-x-1">
+                        <!-- Star 1 -->
+                        <svg class="w-6 h-6 text-yellow-500 cursor-pointer" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10 15.27L16.18 18 14.54 11.97 20 7.24l-7.19-.61L10 1 8.19 6.63 1 7.24l5.46 4.73L3.82 18z" />
+                        </svg>
+                        <!-- Repeat for the other stars -->
+                        <!-- Star 2 -->
+                        <svg class="w-6 h-6 text-yellow-500 cursor-pointer" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10 15.27L16.18 18 14.54 11.97 20 7.24l-7.19-.61L10 1 8.19 6.63 1 7.24l5.46 4.73L3.82 18z" />
+                        </svg>
+                        <!-- Star 3 -->
+                        <svg class="w-6 h-6 text-yellow-500 cursor-pointer" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10 15.27L16.18 18 14.54 11.97 20 7.24l-7.19-.61L10 1 8.19 6.63 1 7.24l5.46 4.73L3.82 18z" />
+                        </svg>
+                        <!-- Star 4 -->
+                        <svg class="w-6 h-6 text-yellow-500 cursor-pointer" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10 15.27L16.18 18 14.54 11.97 20 7.24l-7.19-.61L10 1 8.19 6.63 1 7.24l5.46 4.73L3.82 18z" />
+                        </svg>
+                        <!-- Star 5 -->
+                        <svg class="w-6 h-6 text-yellow-500 cursor-pointer" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10 15.27L16.18 18 14.54 11.97 20 7.24l-7.19-.61L10 1 8.19 6.63 1 7.24l5.46 4.73L3.82 18z" />
+                        </svg>
+                    </div>
+                    <p class="p-3 text-sm sm:text-base font-semibold text-center">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Eum, quia.</p>
+                </div>
+                <div
+                    class="p-6 m-5  max-w-xs sm:max-w-sm flex flex-col items-center text-center bg-black shadow-lg border border-gray-400 rounded-2xl">
+                    <img class="h-40 w-40 mb-4 rounded-full" src="../img/pexels-olly-733872.jpg" alt="">
+                    <h4 class="text-lg sm:text-xl font-bold uppercase p-3">Shilesh Mavchi</h4>
+                    <div class="flex items-center space-x-1">
+                        <!-- Star 1 -->
+                        <svg class="w-6 h-6 text-yellow-500 cursor-pointer" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10 15.27L16.18 18 14.54 11.97 20 7.24l-7.19-.61L10 1 8.19 6.63 1 7.24l5.46 4.73L3.82 18z" />
+                        </svg>
+                        <!-- Repeat for the other stars -->
+                        <!-- Star 2 -->
+                        <svg class="w-6 h-6 text-yellow-500 cursor-pointer" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10 15.27L16.18 18 14.54 11.97 20 7.24l-7.19-.61L10 1 8.19 6.63 1 7.24l5.46 4.73L3.82 18z" />
+                        </svg>
+                        <!-- Star 3 -->
+                        <svg class="w-6 h-6 text-yellow-500 cursor-pointer" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10 15.27L16.18 18 14.54 11.97 20 7.24l-7.19-.61L10 1 8.19 6.63 1 7.24l5.46 4.73L3.82 18z" />
+                        </svg>
+                        <!-- Star 4 -->
+                        <svg class="w-6 h-6 text-yellow-500 cursor-pointer" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10 15.27L16.18 18 14.54 11.97 20 7.24l-7.19-.61L10 1 8.19 6.63 1 7.24l5.46 4.73L3.82 18z" />
+                        </svg>
+                        <!-- Star 5 -->
+                        <svg class="w-6 h-6 text-yellow-500 cursor-pointer" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10 15.27L16.18 18 14.54 11.97 20 7.24l-7.19-.61L10 1 8.19 6.63 1 7.24l5.46 4.73L3.82 18z" />
+                        </svg>
+                    </div>
+                    <p class="p-3 text-sm sm:text-base font-semibold text-center">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Eum, quia.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- contact us -->
+        <section class="text-center mb-5 ">
+            <h2 class="text-4xl p-3 font-bold text-white mb-4 text-center shadow-xl uppercase">Contact Us</h2>
+
+            <div class="flex flex-col items-center justify-center p-6">
+                <form
+                    class="bg-black p-6 rounded-lg shadow-lg max-w-3xl w-full pt-8  pb-8 mb-4 flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0">
+
+                    <div class="flex flex-col w-full">
+                        <input type="text" placeholder="Full Name" id="fullName"
+                            class="w-full p-3 mb-4 md:p-4 md:mb-5 bg-gray-800 text-white rounded-md focus:outline-none"
+                            required>
+                        <input type="email" placeholder="Email" id="email"
+                            class="w-full p-3 mb-4 md:p-4 md:mb-5 bg-gray-800 text-white rounded-md focus:outline-none"
+                            required>
+                        <input type="tel" placeholder="Phone" id="phone"
+                            class="w-full p-3 mb-4 md:p-4 md:mb-5 bg-gray-800 text-white rounded-md focus:outline-none"
+                            required>
+                        <input type="text" placeholder="Subject" id="subject"
+                            class="w-full p-3 mb-4 md:p-4 md:mb-5 bg-gray-800 text-white rounded-md focus:outline-none"
+                            required>
+                    </div>
+
+                    <div class="flex flex-col w-full">
+                        <textarea id="message" placeholder="Your Message" rows="8"
+                            class="w-full p-4 bg-gray-800 text-white rounded-md focus:outline-none" required></textarea>
+                        <button type="submit"
+                            class="w-full p-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 mt-4 md:mt-2">Send
+                            Message</button>
+                    </div>
+
+                </form>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-800">
+        <div class="flex flex-col md:flex-row justify-between p-3 space-y-4 md:space-y-0 md:space-x-6">
+
+            <div>
+                <h5 class="uppercase p-2 text-lg font-bold text-slate-100 shadow-lg ">SHILESH MAVCHI</h5>
+                <p class="p-3  font-semibold hover:text-blue-400">Full Stack Developer | React.js Specialist</p>
+            </div>
+            <div>
+                <h5 class="p-2 text-lg font-bold text-slate-100 shadow-lg ">SKILL'S </h5>
+                <ul class="flex-col p-3  ">
+                    <li class="p-1 font-semibold hover:text-blue-400 hover:underline hover:animate-pulse">React.js</li>
+                    <li class="p-1 font-semibold hover:text-blue-400 hover:underline hover:animate-pulse">JavaScript
+                    </li>
+                    <li class="p-1 font-semibold hover:text-blue-400 hover:underline hover:animate-pulse">Node.js</li>
+                    <li class="p-1 font-semibold hover:text-blue-400 hover:underline hover:animate-pulse">MongoDB</li>
+                    <li class="p-1 font-semibold hover:text-blue-400 hover:underline hover:animate-pulse">Tailwind</li>
+                    <li class="p-1 font-semibold hover:text-blue-400 hover:underline hover:animate-pulse">python</li>
+                    <li class="p-1 font-semibold hover:text-blue-400 hover:underline hover:animate-pulse">Java</li>
+                </ul>
+            </div>
+            <div>
+                <h5 class="p-2 text-lg font-bold text-slate-100 shadow-lg ">ABOUT US</h5>
+                <ul class="flex-col p-3 ">
+                    <li class="p-1 font-semibold hover:text-blue-400 hover:underline hover:animate-pulse">My Project
+                    </li>
+                    <li class="p-1 font-semibold hover:text-blue-400 hover:underline hover:animate-pulse">GitHub</li>
+                    <li class="p-1 font-semibold hover:text-blue-400 hover:underline hover:animate-pulse">LinkedIn</li>
+                    <li class="p-1 font-semibold hover:text-blue-400 hover:underline hover:animate-pulse">blog</li>
+
+                </ul>
+            </div>
+            <div>
+                <h5 class="p-2 text-lg font-bold text-slate-100 shadow-lg ">CONTACT US</h5>
+                <ul class="flex-col p-3 ">
+                    <li class="p-1 font-semibold hover:text-blue-400 hover:underline hover:animate-pulse">+91 1234567890
+                    </li>
+                    <li class="p-1 font-semibold hover:text-blue-400 hover:underline hover:animate-pulse">
+                        l0SbH@example.com</li>
+                    <li class="p-1 font-semibold hover:text-blue-400 hover:underline hover:animate-pulse">Maharashtra
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr class="w-full">
+        <p class="bg-gray-950  hover:text-cyan-700 h-9 text-center mb-0">Copyright &copy; 2024 Shilesh Mavchi
+        </p>
+    </footer>
+
+
+
+
+
+
+    <!-- <div class=" p-6 max-w-sm max-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
+        <div class="">
+            <img class="h-20 w-40 "
+                src="https://upload.wikimedia.org/wikipedia/commons/7/76/Physics_wallah_logo.jpg?20211017183441" alt="">
+        </div>
+        <div class="text-black ">
+            <h3 class="font-bold text-lime-950 ">Shilesh Mavchi</h3>
+            <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, exercitationem!</p>
+        </div>
+    </div>
+
+    <div class="max-w-sm bg-white text-black p-5 rounded-2xl flex items-center space-x-4 mt-5">
+        <div>
+            <img class="h-20 w-30 rounded-xl"
+                src="https://www.shutterstock.com/shutterstock/photos/1032541603/display_1500/stock-photo-the-young-and-conceptual-image-of-a-large-stone-in-the-shape-of-the-human-brain-1032541603.jpg"
+                alt="">
+        </div>
+        <div>
+            <h3 class="text-emerald-950 font-bold">PW CodingWala</h3>
+            <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, hic?</p>
+        </div>
+
+    </div> -->
+
+</body>
+
+</html>
